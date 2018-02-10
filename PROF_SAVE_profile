@@ -6,13 +6,13 @@ GstAudio.MusicVolume 0.678022
 GstAudio.SoundSystemSize 20
 GstAudio.StereoMode 1
 GstAudio.VOLanguage 0
-GstAudio.Volume 0.063953
+GstAudio.Volume 0.220930
 GstAudio.YourSoundSystem 4
 GstRender.AmbientOcclusion 0
 GstRender.AnisotropicFilter 1
 GstRender.AntiAliasingDeferred 0
 GstRender.AntiAliasingPost 0
-GstRender.Brightness 0.447674
+GstRender.Brightness 0.959302
 GstRender.ColorblindSupport 1
 GstRender.ConsoleAntiAlias 1
 GstRender.Contrast 0.500000
@@ -24,14 +24,14 @@ GstRender.FullscreenRefreshRate 60.000000
 GstRender.FullscreenScreen 0
 GstRender.MeshQuality 0
 GstRender.MeshQualityOld 0.700000
-GstRender.MotionBlur 0.000000
+GstRender.MotionBlur 1.000000
 GstRender.MotionBlurEnabled 0
 GstRender.OverallGraphicsQuality 1
-GstRender.ResolutionHeight 720
+GstRender.ResolutionHeight 768
 GstRender.ResolutionHertz 85
-GstRender.ResolutionWidth 1280
-GstRender.ScreenSafeAreaHeight 0.850000
-GstRender.ScreenSafeAreaWidth 0.860000
+GstRender.ResolutionWidth 1366
+GstRender.ScreenSafeAreaHeight 0.959302
+GstRender.ScreenSafeAreaWidth 0.950000
 GstRender.ShaderQuality 2.000000
 GstRender.ShadowQuality 0
 GstRender.StereoConvergence 1.000000
@@ -953,7 +953,7 @@ GstKeyBinding.infantry.ConceptBreathControl.2.button 60
 GstKeyBinding.infantry.ConceptBreathControl.2.negate 1
 GstKeyBinding.infantry.ConceptBreathControl.2.type -1
 GstKeyBinding.infantry.ConceptChangeVehicle.0.axis 0
-GstKeyBinding.infantry.ConceptChangeVehicle.0.button 18
+GstKeyBinding.infantry.ConceptChangeVehicle.0.button 255
 GstKeyBinding.infantry.ConceptChangeVehicle.0.negate 0
 GstKeyBinding.infantry.ConceptChangeVehicle.0.type 0
 GstKeyBinding.infantry.ConceptChangeVehicle.1.axis 24
@@ -1012,7 +1012,7 @@ GstKeyBinding.infantry.ConceptFire.0.button 60
 GstKeyBinding.infantry.ConceptFire.0.negate 0
 GstKeyBinding.infantry.ConceptFire.0.type 2
 GstKeyBinding.infantry.ConceptFire.1.axis 24
-GstKeyBinding.infantry.ConceptFire.1.button 0
+GstKeyBinding.infantry.ConceptFire.1.button 8
 GstKeyBinding.infantry.ConceptFire.1.negate 0
 GstKeyBinding.infantry.ConceptFire.1.type 1
 GstKeyBinding.infantry.ConceptFire.2.axis 0
@@ -1056,7 +1056,7 @@ GstKeyBinding.infantry.ConceptJump.0.button 60
 GstKeyBinding.infantry.ConceptJump.0.negate 0
 GstKeyBinding.infantry.ConceptJump.0.type 2
 GstKeyBinding.infantry.ConceptJump.1.axis 0
-GstKeyBinding.infantry.ConceptJump.1.button 57
+GstKeyBinding.infantry.ConceptJump.1.button 255
 GstKeyBinding.infantry.ConceptJump.1.negate 0
 GstKeyBinding.infantry.ConceptJump.1.type 0
 GstKeyBinding.infantry.ConceptJump.2.axis 24
@@ -1073,16 +1073,15 @@ GstKeyBinding.infantry.ConceptMeleeAttack.1.type 0
 GstKeyBinding.infantry.ConceptMeleeAttack.2.axis 24
 GstKeyBinding.infantry.ConceptMeleeAttack.2.button 60
 GstKeyBinding.infantry.ConceptMeleeAttack.2.negate 1 GstKeyBinding.infantry.ConceptMeleeAttack.2.type 2
-GstKeyBinding.infantry.ConceptMoveFB.0.axis 24
-GstKeyBinding.infantry.ConceptMoveFB.0.button 6
+GstKeyBinding.infantry.ConceptMoveFB.0.axis 18 GstKeyBinding.infantry.ConceptMoveFB.0.button 60
 GstKeyBinding.infantry.ConceptMoveFB.0.negate 0
 GstKeyBinding.infantry.ConceptMoveFB.0.type 2
-GstKeyBinding.infantry.ConceptMoveFB.1.axis 0
+GstKeyBinding.infantry.ConceptMoveFB.1.axis 19
 GstKeyBinding.infantry.ConceptMoveFB.1.button 17
 GstKeyBinding.infantry.ConceptMoveFB.1.negate 0
 GstKeyBinding.infantry.ConceptMoveFB.1.type 0
-GstKeyBinding.infantry.ConceptMoveFB.2.axis 0
-GstKeyBinding.infantry.ConceptMoveFB.2.button 31
+GstKeyBinding.infantry.ConceptMoveFB.2.axis 20
+GstKeyBinding.infantry.ConceptMoveFB.2.button 54
 GstKeyBinding.infantry.ConceptMoveFB.2.negate 1
 GstKeyBinding.infantry.ConceptMoveFB.2.type 0
 GstKeyBinding.infantry.ConceptMoveFB.3.axis 21
@@ -1090,15 +1089,14 @@ GstKeyBinding.infantry.ConceptMoveFB.3.button 2
 GstKeyBinding.infantry.ConceptMoveFB.3.negate 0 GstKeyBinding.infantry.ConceptMoveFB.3.type 1
 GstKeyBinding.infantry.ConceptMoveFB.4.axis 22 GstKeyBinding.infantry.ConceptMoveFB.4.button 60
 GstKeyBinding.infantry.ConceptMoveFB.4.negate 1 GstKeyBinding.infantry.ConceptMoveFB.4.type 2
-GstKeyBinding.infantry.ConceptMoveLR.0.axis 22
-GstKeyBinding.infantry.ConceptMoveLR.0.button 60
+GstKeyBinding.infantry.ConceptMoveLR.0.axis 22 GstKeyBinding.infantry.ConceptMoveLR.0.button 60
 GstKeyBinding.infantry.ConceptMoveLR.0.negate 0
 GstKeyBinding.infantry.ConceptMoveLR.0.type 2
-GstKeyBinding.infantry.ConceptMoveLR.1.axis 0
+GstKeyBinding.infantry.ConceptMoveLR.1.axis 23
 GstKeyBinding.infantry.ConceptMoveLR.1.button 30
 GstKeyBinding.infantry.ConceptMoveLR.1.negate 1
 GstKeyBinding.infantry.ConceptMoveLR.1.type 0
-GstKeyBinding.infantry.ConceptMoveLR.2.axis 0
+GstKeyBinding.infantry.ConceptMoveLR.2.axis 25
 GstKeyBinding.infantry.ConceptMoveLR.2.button 32
 GstKeyBinding.infantry.ConceptMoveLR.2.negate 0
 GstKeyBinding.infantry.ConceptMoveLR.2.type 0
@@ -1149,11 +1147,10 @@ GstKeyBinding.infantry.ConceptParachute.2.axis 24
 GstKeyBinding.infantry.ConceptParachute.2.button 60
 GstKeyBinding.infantry.ConceptParachute.2.negate 1
 GstKeyBinding.infantry.ConceptParachute.2.type -1
-GstKeyBinding.infantry.ConceptPitch.0.axis 11
-GstKeyBinding.infantry.ConceptPitch.0.button 60
+GstKeyBinding.infantry.ConceptPitch.0.axis 11 GstKeyBinding.infantry.ConceptPitch.0.button 60
 GstKeyBinding.infantry.ConceptPitch.0.negate 0
 GstKeyBinding.infantry.ConceptPitch.0.type 2
-GstKeyBinding.infantry.ConceptPitch.1.axis 1
+GstKeyBinding.infantry.ConceptPitch.1.axis 12
 GstKeyBinding.infantry.ConceptPitch.1.button 8
 GstKeyBinding.infantry.ConceptPitch.1.negate 0
 GstKeyBinding.infantry.ConceptPitch.1.type 1
@@ -1161,7 +1158,7 @@ GstKeyBinding.infantry.ConceptPitch.2.axis 0
 GstKeyBinding.infantry.ConceptPitch.2.button 255
 GstKeyBinding.infantry.ConceptPitch.2.negate 0
 GstKeyBinding.infantry.ConceptPitch.2.type 0
-GstKeyBinding.infantry.ConceptPitch.3.axis 0
+GstKeyBinding.infantry.ConceptPitch.3.axis 14
 GstKeyBinding.infantry.ConceptPitch.3.button 255
 GstKeyBinding.infantry.ConceptPitch.3.negate 1
 GstKeyBinding.infantry.ConceptPitch.3.type 0
@@ -1176,7 +1173,7 @@ GstKeyBinding.infantry.ConceptProne.2.axis 24
 GstKeyBinding.infantry.ConceptProne.2.button 60
 GstKeyBinding.infantry.ConceptProne.2.negate 1 GstKeyBinding.infantry.ConceptProne.2.type 2
 GstKeyBinding.infantry.ConceptReload.0.axis 0
-GstKeyBinding.infantry.ConceptReload.0.button 19
+GstKeyBinding.infantry.ConceptReload.0.button 255
 GstKeyBinding.infantry.ConceptReload.0.negate 0
 GstKeyBinding.infantry.ConceptReload.0.type 0
 GstKeyBinding.infantry.ConceptReload.1.axis 24
@@ -1188,7 +1185,7 @@ GstKeyBinding.infantry.ConceptReload.2.button 60
 GstKeyBinding.infantry.ConceptReload.2.negate 1
 GstKeyBinding.infantry.ConceptReload.2.type -1
 GstKeyBinding.infantry.ConceptSelectInventoryItem1.0.axis 0
-GstKeyBinding.infantry.ConceptSelectInventoryItem1.0.button 2
+GstKeyBinding.infantry.ConceptSelectInventoryItem1.0.button 255
 GstKeyBinding.infantry.ConceptSelectInventoryItem1.0.negate 0
 GstKeyBinding.infantry.ConceptSelectInventoryItem1.0.type 0
 GstKeyBinding.infantry.ConceptSelectInventoryItem1.1.axis 0
@@ -1334,7 +1331,7 @@ GstKeyBinding.infantry.ConceptSelectPosition6.2.axis 24
 GstKeyBinding.infantry.ConceptSelectPosition6.2.button 60
 GstKeyBinding.infantry.ConceptSelectPosition6.2.negate 1 GstKeyBinding.infantry.ConceptSelectPosition6.2.type 2
 GstKeyBinding.infantry.ConceptSprint.0.axis 0
-GstKeyBinding.infantry.ConceptSprint.0.button 17
+GstKeyBinding.infantry.ConceptSprint.0.button 255
 GstKeyBinding.infantry.ConceptSprint.0.negate 0
 GstKeyBinding.infantry.ConceptSprint.0.type 0
 GstKeyBinding.infantry.ConceptSprint.1.axis 24
@@ -1377,7 +1374,7 @@ GstKeyBinding.infantry.ConceptSwitchToDynamicGadget2.0.button 60
 GstKeyBinding.infantry.ConceptSwitchToDynamicGadget2.0.negate 0
 GstKeyBinding.infantry.ConceptSwitchToDynamicGadget2.0.type 2
 GstKeyBinding.infantry.ConceptSwitchToDynamicGadget2.1.axis 0
-GstKeyBinding.infantry.ConceptSwitchToDynamicGadget2.1.button 4
+GstKeyBinding.infantry.ConceptSwitchToDynamicGadget2.1.button 255
 GstKeyBinding.infantry.ConceptSwitchToDynamicGadget2.1.negate 0
 GstKeyBinding.infantry.ConceptSwitchToDynamicGadget2.1.type 0
 GstKeyBinding.infantry.ConceptSwitchToDynamicGadget2.2.axis 0
@@ -1454,9 +1451,9 @@ GstKeyBinding.infantry.ConceptYaw.0.axis 24
 GstKeyBinding.infantry.ConceptYaw.0.button 60
 GstKeyBinding.infantry.ConceptYaw.0.negate 0
 GstKeyBinding.infantry.ConceptYaw.0.type 2
-GstKeyBinding.infantry.ConceptYaw.1.axis 0
+GstKeyBinding.infantry.ConceptYaw.1.axis 24
 GstKeyBinding.infantry.ConceptYaw.1.button 8
-GstKeyBinding.infantry.ConceptYaw.1.negate 0
+GstKeyBinding.infantry.ConceptYaw.1.negate 1
 GstKeyBinding.infantry.ConceptYaw.1.type 1
 GstKeyBinding.infantry.ConceptYaw.2.axis 0
 GstKeyBinding.infantry.ConceptYaw.2.button 0
@@ -1467,7 +1464,7 @@ GstKeyBinding.infantry.ConceptYaw.3.button 0
 GstKeyBinding.infantry.ConceptYaw.3.negate 1
 GstKeyBinding.infantry.ConceptYaw.3.type 0
 GstKeyBinding.infantry.ConceptZoom.0.axis 24
-GstKeyBinding.infantry.ConceptZoom.0.button 1
+GstKeyBinding.infantry.ConceptZoom.0.button 8
 GstKeyBinding.infantry.ConceptZoom.0.negate 0
 GstKeyBinding.infantry.ConceptZoom.0.type 1
 GstKeyBinding.infantry.ConceptZoom.1.axis 24
@@ -1483,7 +1480,7 @@ GstKeyBinding.jet.ConceptBrake.0.button 31
 GstKeyBinding.jet.ConceptBrake.0.negate 0
 GstKeyBinding.jet.ConceptBrake.0.type 0
 GstKeyBinding.jet.ConceptBrake.1.axis 24
-GstKeyBinding.jet.ConceptBrake.1.button 43
+GstKeyBinding.jet.ConceptBrake.1.button 14
 GstKeyBinding.jet.ConceptBrake.1.negate 0
 GstKeyBinding.jet.ConceptBrake.1.type 2
 GstKeyBinding.jet.ConceptBrake.2.axis 24
@@ -1645,7 +1642,7 @@ GstKeyBinding.jet.ConceptMoveFB.3.button 255
 GstKeyBinding.jet.ConceptMoveFB.3.negate 1
 GstKeyBinding.jet.ConceptMoveFB.3.type 0
 GstKeyBinding.jet.ConceptMoveFB.4.axis 24
-GstKeyBinding.jet.ConceptMoveFB.4.button 14
+GstKeyBinding.jet.ConceptMoveFB.4.button 60
 GstKeyBinding.jet.ConceptMoveFB.4.negate 1
 GstKeyBinding.jet.ConceptMoveFB.4.type 2
 GstKeyBinding.jet.ConceptMoveFB.5.axis 24
@@ -2354,7 +2351,7 @@ GstKeyBinding.vehicle.ConceptCameraYaw.3.button 255
 GstKeyBinding.vehicle.ConceptCameraYaw.3.negate 0
 GstKeyBinding.vehicle.ConceptCameraYaw.3.type 0
 GstKeyBinding.vehicle.ConceptChangeVehicle.0.axis 0
-GstKeyBinding.vehicle.ConceptChangeVehicle.0.button 18
+GstKeyBinding.vehicle.ConceptChangeVehicle.0.button 255
 GstKeyBinding.vehicle.ConceptChangeVehicle.0.negate 0
 GstKeyBinding.vehicle.ConceptChangeVehicle.0.type 0
 GstKeyBinding.vehicle.ConceptChangeVehicle.1.axis 24
@@ -2453,9 +2450,9 @@ GstKeyBinding.vehicle.ConceptPitch.0.axis 7
 GstKeyBinding.vehicle.ConceptPitch.0.button 60
 GstKeyBinding.vehicle.ConceptPitch.0.negate 0
 GstKeyBinding.vehicle.ConceptPitch.0.type 2
-GstKeyBinding.vehicle.ConceptPitch.1.axis 1
+GstKeyBinding.vehicle.ConceptPitch.1.axis 24
 GstKeyBinding.vehicle.ConceptPitch.1.button 8
-GstKeyBinding.vehicle.ConceptPitch.1.negate 0
+GstKeyBinding.vehicle.ConceptPitch.1.negate 1
 GstKeyBinding.vehicle.ConceptPitch.1.type 1
 GstKeyBinding.vehicle.ConceptPitch.2.axis 0
 GstKeyBinding.vehicle.ConceptPitch.2.button 17
@@ -2477,9 +2474,9 @@ GstKeyBinding.vehicle.ConceptReload.2.axis 0
 GstKeyBinding.vehicle.ConceptReload.2.button 255
 GstKeyBinding.vehicle.ConceptReload.2.negate 1
 GstKeyBinding.vehicle.ConceptReload.2.type 0
-GstKeyBinding.vehicle.ConceptRoll.0.axis 0
+GstKeyBinding.vehicle.ConceptRoll.0.axis 24
 GstKeyBinding.vehicle.ConceptRoll.0.button 8
-GstKeyBinding.vehicle.ConceptRoll.0.negate 0
+GstKeyBinding.vehicle.ConceptRoll.0.negate 1
 GstKeyBinding.vehicle.ConceptRoll.0.type 1
 GstKeyBinding.vehicle.ConceptRoll.1.axis 24
 GstKeyBinding.vehicle.ConceptRoll.1.button 60
@@ -2706,12 +2703,12 @@ GstKeyBinding.vehicle.ConceptYaw.2.axis 0
 GstKeyBinding.vehicle.ConceptYaw.2.button 32
 GstKeyBinding.vehicle.ConceptYaw.2.negate 0
 GstKeyBinding.vehicle.ConceptYaw.2.type 0
-GstKeyBinding.vehicle.ConceptYaw.3.axis 0
-GstKeyBinding.vehicle.ConceptYaw.3.button 8
-GstKeyBinding.vehicle.ConceptYaw.3.negate 0
-GstKeyBinding.vehicle.ConceptYaw.3.type 1
+GstKeyBinding.vehicle.ConceptYaw.3.axis 24
+GstKeyBinding.vehicle.ConceptYaw.3.button 60
+GstKeyBinding.vehicle.ConceptYaw.3.negate 1
+GstKeyBinding.vehicle.ConceptYaw.3.type -1
 GstKeyBinding.vehicle.ConceptZoom.0.axis 24
-GstKeyBinding.vehicle.ConceptZoom.0.button 1
+GstKeyBinding.vehicle.ConceptZoom.0.button 8
 GstKeyBinding.vehicle.ConceptZoom.0.negate 0
 GstKeyBinding.vehicle.ConceptZoom.0.type 1
 GstKeyBinding.vehicle.ConceptZoom.1.axis 24
